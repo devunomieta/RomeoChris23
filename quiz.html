@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>WebGame | Unomieta Joseph</title>
+	<link rel="stylesheet" href="css/quiz.css">
+</head>
+<body>
+<h1>WebGame</h1>
+	<div class="quiz_wrapper">
+		<div class="score">
+			<div class="score-card">
+				<span id="scoreCard">0</span>
+			</div>
+	 	</div>
+           
+    	<div class="question" id="questionBox">   	
+        </div>
+           
+        <div class="options">
+          	<ul id="ul">
+           		<li id="op1" onclick="button(this)"></li>
+           	  	<li id="op2" onclick="button(this)"></li>
+           	  	<li id="op3" onclick="button(this)"></li>
+           	  	<li id="op4" onclick="button(this)"></li>
+           	</ul>
+        </div>
+		<div class="score">
+			<div class="next">
+				<button type="button" onclick="next()" id="button">Next</button>
+			</div>
+		</div>
+	</div>
+	<div class="reset">
+		<button type="button" onclick="window.location.reload()" id="reset">Restart Game</button>
+	</div>
+	<div 
+		class=footer> Developed by <a href="github.com/romeochris">Unomieta Joseph</a> 
+	</div>
+<script src="js/script.js"></script>
+</body>
+</html>

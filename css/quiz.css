@@ -1,0 +1,155 @@
+body{
+	background-image: url('../img/bg.jpg');
+	margin:0;
+	padding:0;
+}
+*{
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+h1{
+	text-align: center;
+	color: #ffffff;
+	margin:30px 0px -15px;
+}
+
+.quiz_wrapper{
+	height: 400px;
+	width: 650px;
+	background-color: white;
+	margin:50px auto;
+	border-radius: 8px;
+	padding: 30px;
+}
+
+.quiz_wrapper .question{
+	padding: 15px;
+	background-color: gray;
+	border-radius: 8px;
+	color:#ffffff;
+	font-size:20px;
+	float: left;
+	width: 100%;
+
+}
+.quiz_wrapper .options{
+	float: left;
+	width: 100%;
+}
+
+.quiz_wrapper .options ul{
+	list-style: none;
+	padding: 0px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.quiz_wrapper .options ul li{
+	display: inline-block;
+	background-color:gray;
+	width: 47%;
+	padding: 15px;
+	border-radius:8px;
+	margin-top: 25px;
+	font-size: 15px;
+	color:#ffffff;
+	box-shadow: 0px 3px 0px grey;
+	cursor: pointer;
+	outline: none;
+	text-align: center;
+}
+.quiz_wrapper .options ul li:active{
+	box-shadow: 0px 3px 0px transparent;	
+
+}
+.quiz_wrapper .options ul li.correct{
+	background-color: #0fd40f;
+	box-shadow: 0px 3px 0px #03a503;
+}
+
+.quiz_wrapper .options ul li.wrong{
+	background-color: #e91e1e;
+	box-shadow: 0px 3px 0px #cb0b0b;
+}
+
+.quiz_wrapper .score{
+	text-align: right;
+	width: 100%;
+}
+
+.quiz_wrapper .score .next{
+	width: 40%;
+	text-align: center;
+}
+.quiz_wrapper .score .next button{
+	padding: 15px 80px;
+	color:white;
+	background-color:#29abec;
+	border:none;
+	border-radius:8px;
+	font-size: 15px;
+	cursor: pointer;
+	box-shadow: 0px 3px 0px #29abec;
+	outline: none;
+	float: left;
+}
+.quiz_wrapper .score .next button:active{
+box-shadow: 0px 3px 0px transparent;	
+}
+
+.quiz_wrapper .score .score-card{
+	width: 60%;
+	float: right;
+}
+
+.quiz_wrapper .score .score-card span{
+	line-height: 50px;
+	text-transform: uppercase;
+	background-color: #29abec;
+	padding: 5px 20px;
+	border-radius: 8px;
+	color:#ffffff;
+
+}
+
+.reset{
+	width: 40%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+.reset button{
+	padding: 15px 80px;
+	color:white;
+	background-color:#29abec;
+	border:none;
+	border-radius:8px;
+	font-size: 15px;
+	cursor: pointer;
+	box-shadow: 0px 3px 0px #29abec;
+	outline: none;
+	float: left;
+}
+.reset button:active{
+	box-shadow: 0px 3px 0px transparent;	
+}
+
+.footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	color: #29abec;
+}
+
+.footer a{
+	color: white;
+}
+
+.start{
+	display: none;
+}
