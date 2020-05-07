@@ -40,10 +40,18 @@ h1{
 	margin:30px 0px -15px;
 }
 
+h1 a
+{
+	font-family: cursive;
+	color: white;
+	text-decoration: none;
+}
+
 .quiz_wrapper{
-	height: 400px;
-	width: 650px;
-	background-color: white;
+	top: 100px;
+	height: 600px;
+	width: 850px;
+	background-color: rgb(92, 85, 85);
 	margin:50px auto;
 	border-radius: 8px;
 	padding: 30px;
@@ -52,12 +60,13 @@ h1{
 
 .quiz_wrapper .question{
 	padding: 15px;
-	background-color: gray;
+	background-color: #0a364c;
 	border-radius: 8px;
 	color:#ffffff;
 	font-size:20px;
 	float: left;
 	width: 100%;
+	text-align: center;
 
 }
 .quiz_wrapper .options{
@@ -75,7 +84,7 @@ h1{
 
 .quiz_wrapper .options ul li{
 	display: inline-block;
-	background-color:gray;
+	background-color:#0a364c;
 	width: 47%;
 	padding: 15px;
 	border-radius:8px;
@@ -109,6 +118,7 @@ h1{
 .quiz_wrapper .score .next{
 	width: 40%;
 	text-align: center;
+	padding: 350px 0 0 0px;
 }
 .quiz_wrapper .score .next button{
 	padding: 15px 80px;
@@ -129,6 +139,7 @@ box-shadow: 0px 3px 0px transparent;
 .quiz_wrapper .score .score-card{
 	width: 60%;
 	float: right;
+	padding: 15px 5px;
 }
 
 .quiz_wrapper .score .score-card span{
@@ -143,7 +154,9 @@ box-shadow: 0px 3px 0px transparent;
 
 .reset{
 	width: 40%;
+	bottom: 50px;
 	display: flex;
+	position: relative;
 	align-items: center;
 	justify-content: center;
 	width: 100%;
@@ -151,6 +164,8 @@ box-shadow: 0px 3px 0px transparent;
 
 .reset a{
 	color: white;
+	text-decoration: none;
+	font-size: 25px;
 }
 
 .reset button{

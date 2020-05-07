@@ -52,15 +52,15 @@
                          
                          if(id[id.length-1]==this.questions[this.index].answer){
                          	this.score++;
-                         	ele.className="correct";
-                           ele.innerHTML="Correct";
-                         	this.scoreCard();
+                          ele.className="correct";                    
+                          this.scoreCard();
+                          
                          }
                          else{
                          	ele.className="wrong";
-                         	ele.innerHTML="Wrong";
+                           ele.innerHTML="Wrong";
+                           
                          }
-
                          
                 },
                 notClickAble:function(){
