@@ -41,6 +41,8 @@ h1{
 }
 
 .quiz_wrapper{
+        height: 400px;
+	width: 650px;
 	background-color: white;
 	margin:50px auto;
 	border-radius: 8px;
@@ -66,7 +68,6 @@ h1{
 .quiz_wrapper .options ul{
 	list-style: none;
 	padding: 0px;
-	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
 }
