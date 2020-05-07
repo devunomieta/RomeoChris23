@@ -76,8 +76,8 @@ h1 a
 
 .quiz_wrapper .options ul{
 	list-style: none;
+        display: flex;
 	padding: 0px;
-	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
 }
